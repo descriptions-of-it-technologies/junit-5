@@ -9,6 +9,7 @@
 * [Documentation.](#documentation)
 * [JUnit 5 Modules.](#junit-5-modules)
 * [JUnit Annotations.](junit-5-annotaions.md)
+* [JUnit Assertion Lambdas.](#junit-assertion-lambdas)
 * [Help](#help)
 
 
@@ -22,6 +23,7 @@
 
 
 ## Documentation.
+* [JUnit 5.](https://junit.org/junit5/)
 
 
 
@@ -32,6 +34,17 @@
   or build tools such a Maven and Gradle.
 * JUnit Jupiter - Programming model from writing tests and extensions to JUnit.
 * JUnit Vintage - Provides a test engine for running JUnit 3 and JUnit 4 tests.
+
+
+
+
+
+## JUnit Assertion Lambdas.
+* JUnit 5 incorporate support of lambdas in assertions.
+* Grouped Assertions - all assertions run in block, all failure reported.
+* Dependent Assertion - allow for blocks of grouped assertions.
+* Expected exceptions are tested with assertThrows lambda expression.
+* Timeouts are tested with assertTimeout lambda expression.
 
 
 
