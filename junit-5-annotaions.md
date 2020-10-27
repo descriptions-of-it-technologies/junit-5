@@ -50,6 +50,7 @@
 | @ExtendWith(SpringExtension.class)                    | SpringExtension introduced in Spring 5, is used to integrate Spring TestContext with JUnit 5 Jupiter Test. SpringExtension is used with JUnit 5 Jupiter @ExtendWith annotation as following. |
 | @ContextConfiguration                                 |                                                                                            |
 | @ExtendWith(MockitoExtension.class)                   | If you just want to involve Mockito and don't have to involve Spring, for example, when you just want to use the @Mock / @InjectMocks annotations. |
+| @ValueSource                                          |                                                                                            |
 |                                                       |                                                                                            |
 
 

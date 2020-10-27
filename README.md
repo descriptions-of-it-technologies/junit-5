@@ -10,6 +10,7 @@
 * [JUnit 5 Modules.](#junit-5-modules)
 * [JUnit Annotations.](junit-5-annotaions.md)
 * [JUnit Assertion Lambdas.](#junit-assertion-lambdas)
+* [JUnit Test Dependency Injection. Parameter Resolver.](#junit-test-dependency-injection-parameter-resolver)
 * [Help](#help)
 
 
@@ -50,4 +51,16 @@
 
 
 
+## JUnit Test Dependency Injection. Parameter Resolver.
+* JUnit 5 Defines a Parameter Resolver API to resolve parameters at runtime.
+* Allows JUnit to inject parameters into test methods.
+* While extensible, there are 3 built in resolvers:
+  * TestInfo - Provides information about the test name, method, test class, test tags.
+  * RepetitionInfo - Provides Information about the test repetition.
+  * TestReporter - Allows you to publish runtime information for test reporting.
+  
+  
+  
+  
+  
 ## Help.
