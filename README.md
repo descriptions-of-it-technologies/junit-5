@@ -7,6 +7,7 @@
 ## Contents at a Glance.
 * [About](#about)
 * [Documentation.](#documentation)
+* [Unit Tests. Unit Testing. Code written to test code under test.](#unit-tests-unit-testing-code-written-to-test-code-under-test)
 * [JUnit 5 Modules.](#junit-5-modules)
 * [JUnit Annotations.](junit-5-annotaions.md)
 * [JUnit Assertion Lambdas.](#junit-assertion-lambdas)
@@ -25,6 +26,18 @@
 
 ## Documentation.
 * [JUnit 5.](https://junit.org/junit5/)
+
+
+
+
+
+## Unit Tests. Unit Testing. Code written to test code under test.
+* Designed to test specific section of code.
+* Percentage of lines of code tested is code coverage.
+* Ideal coverage is in the 70-80% range.
+* Should be 'unity' and execute very fast.
+* Should not have external dependencies.
+* ie no database, no Spring context, etc.
 
 
 
