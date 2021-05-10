@@ -76,4 +76,47 @@
   
   
   
+## Pros.
+*  JUnit 5 utilizes Java 8 features like lambdas for lazy evaluation.
+
+
+
+
+## Cons.
+
+
+
+
+
+## Migration JUnit 4 to JUnit 5.
+* Replace dependencies - JUnit 4 uses a single dependency. JUnit 5 has additional dependencies for migration support and JUnit Vintage engine.
+* Replace annotations - Some JUnit 5 annotations are the same as JUnit 4. Some new ones replace the old ones, and function a little different.
+* Replace testing classes and methods - Assertions and assumptions have been moved to new classes. Method argument order is different in some cases.
+* Replace runners and rules with extensions	JUnit 5 - has a single extension model instead of runners and rules. This step could take more time than the others.
+
+
+## 
+
+| JUnit 4              | JUnit 5                |
+| -------------------- | ---------------------- |
+| @Test                | @Test                  |
+| @Before              | @BeforeEach            |
+| @After               | @AfterEach             |
+| @BeforeClass         | @BeforeAll             |
+| @AfterClass          | @AfterAll              |
+| @Ignore              | @Disable               |
+| @Category            | @Tag                   |
+|                      |                        |
+
+
+
+
+
+## Useful links.
+* [Migrating From JUnit 4 to JUnit 5: A Definitive Guide](https://www.arhohuttunen.com/junit-5-migration/)
+
+
+
+
+
 ## Help.
